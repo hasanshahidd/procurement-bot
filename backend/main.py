@@ -20,6 +20,8 @@ app.add_middleware(
         "http://localhost:5173",  # Vite dev server
         "http://127.0.0.1:5173",  # Alternative localhost
         "https://*.onrender.com",  # Render production (for deployment)
+        "https://procurement-bot-inky.vercel.app",  # Vercel production
+        "https://*.vercel.app",  # All Vercel preview deployments
     ],
     allow_credentials=True,
     allow_methods=["*"],
